@@ -7,7 +7,6 @@ import { BarrasDobleComponent } from './paginas/barras-doble/barras-doble.compon
 import { DonaComponent } from './paginas/dona/dona.component';
 import { DonaHttpComponent } from './paginas/dona-http/dona-http.component';
 import { GraficaBarraComponent } from './componentes/grafica-barra/grafica-barra.component';
-import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -15,13 +14,11 @@ import { ChartsModule } from 'ng2-charts';
     BarrasDobleComponent,
     DonaComponent,
     DonaHttpComponent,
-    GraficaBarraComponent,
-    
+    GraficaBarraComponent
   ],
   imports: [
     CommonModule,
     GraficasRoutingModule,
-    ChartsModule
   ]
 })
 export class GraficasModule { }

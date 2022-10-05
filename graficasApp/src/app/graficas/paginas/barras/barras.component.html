@@ -1,17 +1,13 @@
+<h1>Gráfica de Barras</h1>
+<hr>
 <div class="row">
   <div class="col">
-    <div style="display: block">
-      <canvas baseChart
-        [datasets]="barChartData"
-        [options]="barChartOptions"
-        [chartType]="barChartType"
-        [legend]="barChartLegend"
-        [labels]="barChartLabels"
-      >
-      </canvas>
-    </div>
+    <app-grafica-barra
+      [barChartData]="barChartData"
+      [barChartLabels]="barChartLabels"
+    ></app-grafica-barra>
 
-    <button mat-button mat-raised-button color="primary" (click)="randomize()">Update</button>
+    <!-- <button class="btn btn-primary mt-3" (click)="randomize()">Actualizar</button> -->
   </div>
 </div>
 
