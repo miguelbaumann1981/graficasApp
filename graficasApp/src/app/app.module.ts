@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ChartsModule } from 'ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +14,7 @@ import { MenuComponent } from './shared/menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-ChartsModule
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
